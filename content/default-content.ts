@@ -1,0 +1,110 @@
+import type { SiteContent } from "@/types/content";
+
+export const defaultContent: SiteContent = {
+  hero: {
+    heading: "Your AI Health Coach",
+    subheading: "Welcome",
+    highlightHeading: "AI Health Coach",
+    paragraph:
+      "Transform your wellness journey with personalized AI-powered guidance that adapts to your unique needs.",
+    ctaText: "Get started",
+    ctaLink: "#",
+    ctaSecondaryText: "Download",
+    ctaSecondaryLink: "#",
+    userCountText: "59,182 Happy Users",
+  },
+  testimonials: {
+    sectionTitle: "Our Users Feel the Transformation",
+    sectionParagraph:
+      "Real Stories from People Empowered by Personalized Wellness",
+    tagline: "Empowered by AI Wellness Journeys",
+    list: [
+      {
+        id: "1",
+        author: "Ava L.",
+        role: "Marketing Executive",
+        quote:
+          "I've tried countless health apps, but none come close to this. The AI truly understands my needs—it suggested daily routines and nutrition tips that actually fit my lifestyle. Within weeks, I felt more energized, slept better, and became more mindful. It's like having a personal wellness coach in my pocket.",
+      },
+      {
+        id: "2",
+        author: "Namo Serlina",
+        role: "CEO Delego",
+        quote:
+          "Clean setup and great support. Exactly what we needed for our team's wellness.",
+      },
+      {
+        id: "3",
+        author: "Jane Doe",
+        role: "Founder, Acme",
+        quote: "This product changed how we work. Highly recommend!",
+      },
+    ],
+  },
+  faq: {
+    sectionTitle: "Frequently Asked Questions",
+    sectionParagraph:
+      "Get answers to common questions about our AI health assistant app",
+    items: [
+      {
+        question: "What features does the AI Health Assistant offer?",
+        answer:
+          "Our AI Health Assistant offers personalized nutrition plans, activity tracking, sleep insights, mindfulness exercises, and 24/7 health guidance tailored to your goals.",
+      },
+      {
+        question: "Is the app customizable to my needs?",
+        answer:
+          "Yes. You can set your health goals, dietary preferences, activity level, and more. The AI adapts its recommendations to your profile and progress.",
+      },
+      {
+        question: "How accurate is the AI health tracking?",
+        answer:
+          "Experience the future of personalized health and wellness before everyone else. Join our exclusive early access program and help shape the future of AI-powered health coaching.",
+      },
+      {
+        question: "Do I need any special equipment?",
+        answer:
+          "No special equipment is required. The app works with your smartphone. Optional integrations with wearables can enhance tracking if you have them.",
+      },
+      {
+        question: "How does the free trial work?",
+        answer:
+          "Start with a free trial to explore all features. No credit card required. You can cancel anytime before the trial ends.",
+      },
+    ],
+  },
+  footer: {
+    description:
+      "Innovative health assistant app that leverages artificial intelligence to provide personalized wellness recommendations.",
+    email: "hello@reppoo.com",
+    company: {
+      heading: "Company",
+      links: [
+        { label: "Home", href: "/" },
+        { label: "Early Access", href: "#early-access" },
+        { label: "404", href: "/404" },
+      ],
+    },
+    app: {
+      heading: "App",
+      links: [
+        { label: "Download For iOS", href: "#" },
+        { label: "Download For Android", href: "#" },
+      ],
+    },
+    legal: {
+      heading: "Legal Pages",
+      links: [
+        { label: "Privacy Policy", href: "/privacy" },
+        { label: "Terms & Conditions", href: "/terms" },
+      ],
+    },
+    copyright: "© Copyright Reppoo",
+    social: [
+      { platform: "facebook", url: "https://facebook.com" },
+      { platform: "twitter", url: "https://twitter.com" },
+      { platform: "instagram", url: "https://instagram.com" },
+      { platform: "linkedin", url: "https://linkedin.com" },
+    ],
+  },
+};
