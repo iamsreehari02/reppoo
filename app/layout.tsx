@@ -22,6 +22,9 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "Reppoo",
   description: "Reppoo official website",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
